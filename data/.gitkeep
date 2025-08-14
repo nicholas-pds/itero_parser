@@ -1,0 +1,3 @@
+# This file ensures the data folder is tracked by git
+# while allowing the contents to be ignored
+# Place your .zip files in this folder - they will be ignored by git
