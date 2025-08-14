@@ -61,15 +61,16 @@ def extract_from_file(file_path):
         raise ValueError(f"Error reading file: {e}")
 
 
-# Example usage reading from a local file
+# Reading from a local file
 if __name__ == "__main__":
     # Specify the path to your XML file
-    file_path = r"C:\Users\Partners\Downloads\test_itero_xml.xml"  # Change this to your actual file path
+    file_path = r"C:\Users\Partners\Downloads\test_itero_xml.xml"
 
     try:
         # Extract data from the XML file
         data = extract_from_file(file_path)
 
+        # Print the extracted information
         print("Extracted Information:")
         print(f"Patient: {data['patient']}")
         print(f"Doctor: {data['doctor']}")

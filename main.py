@@ -4,13 +4,12 @@
 from src.xml_parser import extract_from_file
 
 
-# Example usage in your main program
 def main():
     # Path to your XML file (adjust as needed; consider making this configurable via args or env vars)
     file_path = r"C:\Users\Partners\Downloads\test_itero_xml.xml"
 
     try:
-        # Call the function from the imported module
+
         info_from_itero = extract_from_file(file_path)
 
         print("Extracted from file:")
